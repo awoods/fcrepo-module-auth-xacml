@@ -15,6 +15,7 @@
  */
 package org.fcrepo.auth.xacml;
 
+import org.fcrepo.kernel.utils.TestHelpers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -26,7 +27,7 @@ import org.junit.Test;
 public class XACMLAuthorizationDelegateTest {
     @Before
     public void setUp() throws Exception {
-
+        TestHelpers.setField(null, null, null);
     }
 
     @After
